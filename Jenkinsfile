@@ -7,9 +7,7 @@ pipeline {
                 script {
                     // GitHub repository URL
                     def gitRepoUrl = 'https://github.com/EnesAkil/case-projects.git'
-                    
-                    // Checkout the code from GitHub
-                    git branch: 'main', credentialsId: 'your-credentials-id', url: gitRepoUrl
+
                 }
             }
         }
